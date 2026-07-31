@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="eng">
+       <head>
+<meta  charset=" UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <label>
+            firts name 
+        </label>
+        <input type="text"
+        placeholder="first name"
+        pattern="[A-Za-z]{3,5}" >
+        <br><br>
+        <label>email</label>
+        <input type="email"
+        placeholder="enter your email" required>
+        <br><br>
+        <label>phone</label>
+       <input type="tel" name="phone"
+       placeholder="enter your phone" required 
+       pattern="(010|011|012|015)[0-9]{8}">
+       <br><br>
+       <label>password</label>
+<input type="password" 
+placeholder=" enter your password" required
+pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*]).*">
+ <br><br>
+<label>address</label>
+ <input type="text" 
+ placeholder=" address" required 
+ pattern="[A-Za-z ]+">
+<br><br>
+ <label>Choose your country</label>
+<input list="countries" placeholder="select country">
+<datalist id="countries">
+    <option value="Egypt">
+    <option value="USA">
+    <option value="Germany">
+    <option value="France">
+    <option value="Italy">
+    </datalist>
+<br><br>
+    <label>Range</label>
+<input type="range" min="300" max="500">
+<label>image</label>
+<input type="file" accept=".png" required>
+    </body>
+</html>
