@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     margin:0;
     padding:0;
@@ -40,4 +41,48 @@ body{
 
 .custom-div a:hover{
     background:rgb(0, 0, 0);
+=======
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial, sans-serif;
+}
+
+.text-center{
+    text-align:center;
+    margin:20px;
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+}
+
+.custom-div{
+    width:220px;
+    height:350px;
+    border:2px solid rgb(0, 194, 253);
+    border-radius:20px;
+    padding:20px;
+    box-sizing:border-box;
+    text-align:justify;
+}
+
+.custom-div p{
+    line-height:1.6;
+}
+
+.custom-div a{
+    display:inline-block;
+    margin-top:20px;
+    padding:10px 20px;
+    background:black;
+    color:white;
+    text-decoration:none;
+}
+
+.custom-div a:hover{
+    background:rgb(0, 0, 0);
+>>>>>>> 1bf5bc2da5fe4b483782eaf40b49b1ac54ccd9b9
 }
