@@ -1,0 +1,511 @@
+.logo {
+    font-size: large;
+    margin-left: 150px;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(1, 12, 24);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.float-right {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    margin-right: 269px;
+    padding: 0;
+    margin-top:25px;
+    gap: 14px;
+font-family: 'Courier New', Courier, monospace;
+font-size: 11px;
+}
+
+.float-right li {
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    list-style: none;
+}
+
+.clear{
+    clear: both;
+}
+
+.button1 {
+   float: right;
+   margin-top: -25px;
+   margin-right: 207px;
+   display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+.button1 button {
+    background-color: #f4c430;   
+    border: none;
+    padding: 8px 25px;
+    font-size: 12px;
+    border-radius: 6px;
+    
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+.liv{
+    position: relative;
+    margin-left: 273px;
+    margin-top: 22px;
+    width: 480px;
+    margin-bottom: 60px;
+    left: 5px;
+}
+
+.first-page{
+    background: linear-gradient(180deg, #cfeaf5, #eaf6fb);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 148%;
+    min-height: 499px;
+}
+
+.hero-content{
+    position: absolute;
+    top: 69px;
+    left: -40px;
+}
+
+.hero-content h1{
+font-size:33px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: rgb(1, 18, 34);
+margin: 0;
+position: relative;
+left: -60px;
+
+
+}
+.hero-content h2{
+    font-size:34px ;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin-top: -8px;
+color: rgb(1, 18, 34);
+position: relative;
+left: -60px;
+}
+
+.join-us {
+    color: #333;
+    text-decoration: none;
+   font-family: 'Courier New', Courier, monospace;
+font-size: 11px;
+}
+.search-box{
+    display: flex;
+    align-items: center;
+    background: #fff;
+    width: fit-content;
+    height: fit-content;
+     box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+    margin-top: 25px;
+    position: relative;
+    top:-18px;
+    left: -62px;
+}
+.search-box input{
+    border: none;
+    outline: none;
+    padding: 15px;
+    width: 250px;
+    font-size: 16px;
+}
+.search-box button{
+    border: none;
+    outline: none;
+    padding:15px;
+    font-size: 16px;
+    background-color:rgb(255, 208, 0);
+    width: fit-content;
+    height: fit-content;
+    color: black;
+}
+
+.contact-strip{
+    position: absolute;
+    right: -230px;
+    bottom: 2px;
+    background: #f4c430;
+    padding: 14px 30px;
+    display: flex;
+    gap: 30px;
+    font-size: 13px;
+    color: white;
+}
+/* Our's Company
+Statistics جزء ا  */
+.stats-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 150px 60px 273px;
+    gap: 60px;
+    position: relative;
+    left: -136px;
+}
+
+.stats-text h2{
+    font-size: 30px;
+    margin-top: 0;
+}
+.stats-text p{
+    color: #666;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.stats-grid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 380px;
+    gap: 15px;
+}
+
+.stat-box{
+    background: #f4f4f4;
+    width: 170px;
+    padding: 25px;
+    float: left;
+}
+.stat-box h3{
+    color: #f4c430;
+    font-size: 30px;
+    margin: 0 0 8px 0;
+}
+.stat-box p{
+    margin: 0;
+    color: #333;
+    font-size: 13px;
+}
+.first-stat-box{
+position: relative;
+right: 10px;
+top: 17px;
+}
+.second-stat-box{
+     position: relative;
+right: -235px;
+top: -111px;
+left: 229px;
+}
+.third-stat-box{
+    position: relative;
+   left:-10px;
+top: -111px;
+}
+.four-stat-box{
+    position: relative;
+    right: -230px;
+    top: -243px;
+}
+/* Appartments For Rent  جزء  ال*/
+
+.apartments-section{
+    background: #f4f2ee;
+    padding: 60px 150px 60px 273px;
+}
+.apartments-section h2{
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.apartments-grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.apart-card{
+    width: 30%;
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    margin-bottom: 10px;
+}
+
+.apart-img{
+    height: 200px;
+    width: 100%;
+}
+.img1{
+     background-image: url(images/apt1.jpg); 
+    background-size: cover; 
+    background-position: center;
+ }
+
+.img2{
+     background-image: url(images/apt2.jpg); 
+    background-size: cover;
+     background-position: center;
+     }
+
+.img3{
+    background-image: url(images/apt3.jpg);
+     background-size: cover;
+      background-position: center;
+     }
+
+.img4{
+    background-image: url(images/apt4.png);
+     background-size: cover;
+      background-position: center;
+     }
+
+.img5{ background-image: url(images/apt5.png);
+     background-size: cover;
+      background-position: center;
+     }
+
+.img6{ background-image: url(images/apt6.png);
+     background-size: cover;
+      background-position: center;
+     }
+
+.apart-info{
+    padding: 15px;
+    position: relative;
+}
+.apart-street{
+    font-size: 13px;
+    color: #444;
+    margin: 0 0 6px 0;
+}
+.apart-price{
+    color: #f4c430;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 0 8px 0;
+}
+.apart-info span{
+    font-size: 12px;
+    color: #777;
+    margin-right: 15px;
+}
+
+.search-box2{
+    margin-top: 40px;
+}
+.search-box{
+    display: flex;
+    align-items: center;
+    background: #fff;
+    width: fit-content;
+    height: fit-content;
+     box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+    margin-top: 25px;
+    position: relative;
+    top:-18px;
+    left: -62px;
+}
+.search-box input{
+    border: none;
+    outline: none;
+    padding: 15px;
+    width: 250px;
+    font-size: 16px;
+}
+.search-box button{
+    border: none;
+    outline: none;
+    padding:15px;
+    font-size: 16px;
+    background-color:rgb(255, 208, 0);
+    width: fit-content;
+    height: fit-content;
+    color: black;
+}
+
+.view-all-btn{
+    background: #fff;
+    color: #333;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+/* How it works?جزء ال  */
+.how-section{
+    padding: 80px 150px 80px 273px;
+}
+.how-section h2{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.how-section p{
+    color: #666;
+    font-size: 14px;
+    max-width: 400px;
+}
+
+.how-grid{
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.how-box{
+    background: #f8f8f8;
+    padding: 30px;
+    width: 30%;
+    position: relative;
+    overflow: hidden;
+}
+.how-num{
+    font-size: 91px;
+    font-weight: bold;
+    color: #1f2833;
+    position: absolute;
+    top: -63px;
+    right: 121px;
+    left: -10px;
+}
+.how-box h3{
+    position: relative;
+}
+.how-box p{
+    position: relative;
+}
+.how-box a{
+      position: relative;
+}
+.promo-section{
+    padding: 60px 150px 60px 273px;
+}
+
+.promo-box{
+    width: 45%;
+    float: left;
+    position: relative;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.promo-box-right{
+    float: right;
+}
+.promo-box-left2{
+    float: left;
+}
+.location-tag{
+    position: absolute;
+    bottom:-222px;
+    right: 91px;
+    background: #f4c430;
+    padding: 10px 20px;
+    font-size: 13px;
+}
+.promo-tag{
+    position: absolute;
+    bottom: -215px;
+    right: 15px;
+    background: #f4c430;
+    padding: 10px 20px;
+    font-size: 13px;
+}
+.promo-box h3{
+    font-size: 22px;
+}
+.promo-box p{
+    color: #666;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.show-more-btn{
+    background: #1f2833;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    margin-top: 15px;
+    font-size: 13px;
+}
+.bottom-section{
+    background: #000;
+    color: #fff;
+    padding: 60px 150px 40px 273px;
+    position: relative;
+}
+
+.bottom-top{
+    position: relative;
+    min-height: 90px;
+}
+
+.bottom-logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.bottom-logo h3{
+    color: #f4c430;
+    font-weight: normal;
+}
+
+.newsletter-box{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    display: flex;
+    background: #fff;
+}
+.newsletter-box input{
+    border: none;
+    padding: 14px 20px;
+    width: 260px;
+    color: #333;
+}
+.newsletter-box button{
+    border: none;
+    background: #f4c430;
+    padding: 0 20px;
+}
+
+.bottom-line{
+    border-top: 1px solid #333;
+    margin-top: 100px;
+}
+
+.bottom-cols{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    position: relative;
+}
+.bottom-col h4{
+     color: #f4c430;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+.bottom-col h5{
+    color: #f4c430;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+.bottom-col p{
+    font-size: 13px;
+    color: #ccc;
+    margin-bottom: 8px;
+}
