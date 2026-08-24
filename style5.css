@@ -248,35 +248,35 @@ top: -111px;
     width: 100%;
 }
 .img1{
-     background-image: url(images/apt1.jpg); 
+     background-image: url(); 
     background-size: cover; 
     background-position: center;
  }
 
 .img2{
-     background-image: url(images/apt2.jpg); 
+     background-image: url(); 
     background-size: cover;
      background-position: center;
      }
 
 .img3{
-    background-image: url(images/apt3.jpg);
+    background-image: url();
      background-size: cover;
       background-position: center;
      }
 
 .img4{
-    background-image: url(images/apt4.png);
+    background-image: url();
      background-size: cover;
       background-position: center;
      }
 
-.img5{ background-image: url(images/apt5.png);
+.img5{ background-image: url();
      background-size: cover;
       background-position: center;
      }
 
-.img6{ background-image: url(images/apt6.png);
+.img6{ background-image: url();
      background-size: cover;
       background-position: center;
      }
@@ -494,10 +494,6 @@ top: -111px;
     font-size: 13px;
     margin-bottom: 15px;
 }
-
-
-
-
 
 .bottom-col h5{
     color: #f4c430;
