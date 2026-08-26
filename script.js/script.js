@@ -22,8 +22,5 @@ else if (degree >= 70) {
     console.log("C");
 }
 else if (degree >= 60) {
-    console.log("D");
-}
-else {
     console.log("F");
 }

@@ -1,0 +1,74 @@
+.help-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 16px 40px;
+}
+
+.help-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #1a1a2e;
+}
+
+.help-item .arrow {
+  margin-left: auto; 
+}
+.help-center h1{
+    font-size: 32px;
+    font-weight: 600;
+    font-style: initial;
+    line-height: normal;
+color: black;
+}
+.help-center h2{
+   font-size: 24px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: initial;
+color: #1a1a2e;
+}
+.button{
+ border-radius: 6px;
+    border: none;
+    background-color: #4169f1;
+    font-size: 17px;
+    color: #f5f2f2;
+     transition: 0.3s;
+
+}
+button:hover {
+    background-color: rgb(8, 8, 8);
+    color: white;
+    transform: translateY(-5px) scale(1.03);
+    box-shadow:0 0 20px rgba(7, 0, 0, 0.4)
+}
+.ask.input {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.ask.input .form-control {
+  flex: 1;
+  padding: 10px 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.ask.input .button {
+  white-space: nowrap;
+  padding: 10px 20px;
+  height: fit-content;
+}
+.help-item:hover{
+      box-shadow: 5px 5px 10px rgb(0, 89, 255);
+       transition: 0.3s;
+    
+}

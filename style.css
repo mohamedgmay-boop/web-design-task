@@ -1,4 +1,81 @@
-<<<<<<< HEAD
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 80%;
+    min-height: 60vh;
+    margin: 15vh auto 10vh;
+    display: flex;
+}
+
+.card {
+    width: 50%;
+    min-height: 60vh;
+    border: 1px solid black;
+    background-color: rgb(72, 125, 240);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    padding: 5%;
+    color: white;
+}
+
+.card h1 {
+    margin-bottom: 5%;
+}
+
+.card p {
+    line-height: 1.5;
+}
+
+.form {
+    width: 50%;
+    min-height: 60vh;
+    border: 1px solid black;
+    background-color: white;
+    padding: 5%;
+}
+
+.form label {
+    display: inline-block;
+    width: 20%;
+     vertical-align: top;
+}
+
+.form input {
+    width: 75%;
+    padding: 2%;
+    margin-bottom: 5%;
+}
+
+.form textarea {
+   width: 75%;
+    height: 15vh;
+}
+
+.form button {
+    width: 40%;
+    padding: 2%;
+    display: block;
+    margin: auto;
+  color: white;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+}
+body{
+    background-color: blueviolet;
+    padding: 1px;;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -74,80 +151,3 @@ body{
     background-color: blueviolet;
     padding: 1px;;
 }
-=======
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-}
-
-.container {
-    width: 80%;
-    min-height: 60vh;
-    margin: 15vh auto 10vh;
-    display: flex;
-}
-
-.card {
-    width: 50%;
-    min-height: 60vh;
-    border: 1px solid black;
-    background-color: rgb(72, 125, 240);
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    text-align: center;
-    padding: 5%;
-    color: white;
-}
-
-.card h1 {
-    margin-bottom: 5%;
-}
-
-.card p {
-    line-height: 1.5;
-}
-
-.form {
-    width: 50%;
-    min-height: 60vh;
-    border: 1px solid black;
-    background-color: white;
-    padding: 5%;
-}
-
-.form label {
-    display: inline-block;
-    width: 20%;
-     vertical-align: top;
-}
-
-.form input {
-    width: 75%;
-    padding: 2%;
-    margin-bottom: 5%;
-}
-
-.form textarea {
-   width: 75%;
-    height: 15vh;
-}
-
-.form button {
-    width: 40%;
-    padding: 2%;
-    display: block;
-    margin: auto;
-  color: white;
-    background-color: cornflowerblue;
-}
-body{
-    background-color: blueviolet;
-    padding: 1px;;
-}
->>>>>>> 1bf5bc2da5fe4b483782eaf40b49b1ac54ccd9b9
