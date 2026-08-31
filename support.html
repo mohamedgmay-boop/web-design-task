@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+<link href="support.css" rel="stylesheet">
+<title>Help and Feedback</title>
+</head>
+<body>
+<section class="account-page">
+  <div class="container">
+    <div class="account-wrapper">
+
+      <!-- Sidebar -->
+      <div class="account-sidebar">
+        <div class="user-info">
+          <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Emmily Morgan" class="avatar">
+          <div>
+            <h3>Emmily Morgan</h3>
+            <p>Customer Operations</p>
+          </div>
+        </div>
+        <hr>
+        <nav class="account-nav">
+          <a href="#" class="nav-item">
+            <i class="bi bi-person-circle"></i>
+            <span>Personal Data</span>
+          </a>
+          <a href="#" class="nav-item">
+            <i class="bi bi-credit-card"></i>
+            <span>Payment Account</span>
+          </a>
+          <a href="#" class="nav-item">
+            <i class="bi bi-briefcase"></i>
+            <span>Trips</span>
+            <i class="bi bi-chevron-down nav-caret"></i>
+          </a>
+          <a href="#" class="nav-item">
+            <i class="bi bi-heart"></i>
+            <span>Wish Lists</span>
+          </a>
+          <a href="#" class="nav-item active">
+            <i class="bi bi-headset"></i>
+            <span>Support</span>
+          </a>
+          <a href="#" class="nav-item">
+            <i class="bi bi-chat-square-text"></i>
+            <span>My Reviews</span>
+          </a>
+        </nav>
+        <hr>
+        <a href="#" class="nav-item">
+          <i class="bi bi-gear"></i>
+          <span>Settings</span>
+        </a>
+      </div>
+
+      <!-- Main content -->
+      <div class="account-content">
+        <h1>Help and feedback</h1>
+        <p class="subtitle">Have questions or feedback for us? We're listening</p>
+
+        <div class="feedback-list">
+          <a href="#" class="feedback-item">
+            <span class="icon"><i class="bi bi-chat-dots"></i></span>
+            <span class="label">Chat now</span>
+            <span class="arrow"><i class="bi bi-chevron-right"></i></span>
+          </a>
+          <a href="#" class="feedback-item" data-bs-toggle="modal" data-bs-target="#feedbackModal">
+            <span class="icon"><i class="bi bi-box-arrow-up-right"></i></span>
+            <span class="label">Visit the help center</span>
+            <span class="arrow"><i class="bi bi-chevron-right"></i></span>
+          </a>
+          <a href="#" class="feedback-item">
+            <span class="icon"><i class="bi bi-pencil-square"></i></span>
+            <span class="label">Share your feedback</span>
+            <span class="arrow"><i class="bi bi-chevron-right"></i></span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <a href="#" class="logout-link">
+      <i class="bi bi-box-arrow-right"></i>
+      <span>Log out</span>
+    </a>
+  </div>
+</section>
+
+<!-- Feedback Modal -->
+<div class="modal fade" id="feedbackModal">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content feedback-modal">
+      <div class="modal-body">
+        <div id="feedbackFormPart">
+        <h5 class="feedback-question">How likely are you to recommend tripto to a friend or colleague?</h5>
+
+        <div class="rating-scale">
+          <label class="rating-circle">
+            <input type="radio" name="rating" value="1">
+            <span>1</span>
+          </label>
+          <label class="rating-circle">
+            <input type="radio" name="rating" value="2">
+            <span>2</span>
+          </label>
+          <label class="rating-circle">
+            <input type="radio" name="rating" value="3">
+            <span>3</span>
+          </label>
+          <label class="rating-circle">
+            <input type="radio" name="rating" value="4">
+            <span>4</span>
+          </label>
+          <label class="rating-circle">
+            <input type="radio" name="rating" value="5">
+            <span>5</span>
+          </label>
+        </div>
+
+        <label class="feedback-label">Please include anything else you like us to know</label>
+        <textarea class="form-control feedback-textarea" rows="4" placeholder="Enter your comments here"></textarea>
+
+        <label class="feedback-label">Email address</label>
+        <p class="feedback-hint">We will use your email solely to reply to this feedback. It will not be shared or used for any other purpose.</p>
+        <input type="email" class="form-control feedback-email" placeholder="you@example.com">
+        </div>
+
+        <div id="thankYouPart" style="display:none;">
+          <p class="thank-you-text">Thank you for your feedback.</p>
+        </div>
+      </div>
+      <div class="modal-footer feedback-footer" id="feedbackFormButtons">
+        <button type="button" class="btn btn-not-now" data-bs-dismiss="modal">Not now</button>
+        <button type="button" class="btn btn-send-feedback" >Send feedback</button>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
