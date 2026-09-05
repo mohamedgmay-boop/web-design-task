@@ -23,8 +23,7 @@ loginForm.addEventListener('submit', (e) => {
     let newDiv = document.createElement('div')
     let h4 = document.createElement('h4')
     let h5 = document.createElement('h5')
- h4.innerText = "Email : " + email
-    h5.innerText = "Password : " + password
+
 
     newDiv.appendChild(h4)
     newDiv.appendChild(h5)
